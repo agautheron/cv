@@ -4,7 +4,7 @@
     <div class="row clearfix experience">
 	    {%- if experience.logo -%}
       <div class="col-xs-12 col-sm-4 col-md-3 no-print">
-        <span class="profile-img" style="background-image: url({{ experience.logo | relative_url }})" />
+        <span class="company-logo" style="background-image: url({{ experience.logo | relative_url }})" />
       </div>
     {%- endif -%}
       <div class="{{ 'col-xs-12 ' }}{%- if experience.logo -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
