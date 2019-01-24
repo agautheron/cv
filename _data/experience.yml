@@ -12,3 +12,16 @@
     In particular, I have adapted the Navarro eye-model to match with ametropic cases. I have also validate the wavefront computation with external tools like Zemax or infinitesimal computation of prescription.
     
     At the end I just began to look at neural network to try to implement a brain identification of pictures.
+- company: Medical University of Vienna
+  link: https://zmpbmt.meduniwien.ac.at/en/
+  logo : images/wien.png
+  job_title: Student Intern
+  dates: September 2017 - December 2017 (3 monthes)
+  quote: #>
+ #  Short description of the company (optional)
+  description: | # this will include new lines to allow paragraphs 
+    The main task is to implement a swept source OCT system that can be used for wavefront measurement using the principle of digital adaptive optics. 
+    
+    The tasks involved are the design of the OCT system that uses descanning of the single illumination spot of the retina, with optics, that project an OCT guide star beam selected areas of the human retina. 
+    
+    After the design, the unit will be implemented with support from the workshop with rapid prototyping machines. The operation of the system needs appropriate software that will also allow synchronization with the OCT data recording.
