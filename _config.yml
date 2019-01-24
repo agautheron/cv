@@ -1,12 +1,12 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: agautheron/cv/
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
 name: Arthur Gautheron
 title: Student
 email: arthur.gautheron@gmail.com
-website: Your website (optional)
+website: #Your website (optional)
 
 # Social links
 twitter_username: 
