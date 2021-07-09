@@ -1,4 +1,14 @@
 # Experience template
+- company: Université de Lyon / CREATIS
+  link: https://www.creatis.insa-lyon.fr/site7/fr
+  logo : images/doctorat.png
+  job_title: PhD Student
+  dates: October 2019 - Now
+  quote: #>
+ #  Short description of the company (optional)
+  description: | # this will include new lines to allow paragraphs
+  
+# Experience template
 - company: Polytech Lyon
   link: http://www.essilor.fr
   logo : images/Polytech-Lyon.png
@@ -8,6 +18,7 @@
  #  Short description of the company (optional)
   description: | # this will include new lines to allow paragraphs
     Tutorial and practical classes for bachelors and master students in a biomedical engineering school.
+    
     Signal and image processing / Electronic Captors / Informatic Basics (64h/year)
 # Experience template
 - company: Essilor
@@ -19,7 +30,9 @@
  #  Short description of the company (optional)
   description: | # this will include new lines to allow paragraphs
     A tool which generate images as seen by the retina has been developed previously.
+    
     This tool is taking into account the aberrations of the glass and the eye.
+    
     The aim of the internship is to analyze these retinal images to extract information and thus creating a visual acuity model.
 # Experience template
 - company: Essilor
