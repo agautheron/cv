@@ -20,7 +20,7 @@
   description: | # this will include new lines to allow paragraphs
     A tool which generate images as seen by the retina has been developed previously.
     This tool is taking into account the aberrations of the glass and the eye.
-    
+    The aim of the internship is to analyze these retinal images to extract information and thus creating a visual acuity model.
 # Experience template
 - company: Essilor
   link: http://www.essilor.fr
@@ -36,7 +36,7 @@
     
     At the end I just began to look at neural network to try to implement a brain identification of pictures.
 
-The aim of the internship is to analyze these retinal images to extract information and thus creating a visual acuity model.
+
 - company: Medical University of Vienna
   link: https://zmpbmt.meduniwien.ac.at/en/
   logo : images/wien.png
