@@ -1,8 +1,12 @@
 # Education Template
-- name: Institution name
-  dates: Date Range (eg. 2016 - 2019)
-  qualification: Qualifications (eg. BA Performing Arts)
+- name: Institut d'Optique Graduate School
+  logo : images/iogs.png
+  link : https://www.youtube.com/watch?v=kCykmN33m90
+  dates: 2015 - 2019
+  qualification: Master of Engineering (MEng), Optic, Photonics, Physics
   quote: >
-    Short institution or course description (optional)
+ #   Short institution or course description (optional)
   description: | # this will include new lines to allow paragraphs
-    Description of qualification
+    The Institut d'Optique Graduate School is set at Palaiseau in the campus of ParisTech and Paris-Saclay, at the south of Paris. This school trains engineers with very different experiences: from the general engineer to the researcher in optics and photonics, and even engineers in finance and entrepreneurs.
+    
+    Courses: Mathematics, Signal and Image Processing, Matlab, Python, C-programming, Electronics, Automation, Electromagnetism, Laser, Semi-conductors, Polarisation, Quantum Optics, Non-linear optics, Optical systems design, Biophotonic etc..

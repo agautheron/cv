@@ -25,7 +25,7 @@ googleplus_username:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile-2.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am currently <mark>PhD Student</mark> at the [CREATIS Lab](https://www.creatis.insa-lyon.fr/site7/fr). 
+  Graduated from Institut d'Optique Graduate School in 2019, I am currently <mark>PhD Student</mark> at the [CREATIS Lab](https://www.creatis.insa-lyon.fr/site7/fr). 
   My PhD, financed by the [Labex PRIMES](https://primes.universite-lyon.fr/), is summerised [here](https://primes.universite-lyon.fr/medias/fichier/resume-these-labex-arthur-gautheron-v2_1625571544265-pdf).
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
