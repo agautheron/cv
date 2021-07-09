@@ -9,20 +9,28 @@
     {%- endif -%}
       <div class="{{ 'col-xs-12 ' }}{%- if education.logo -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
         <h4 class="name">
-          {%- if education.link -%}
+          {{ education.qualification }}
+          </h4>
+        <p>{%- if education.link -%}
             <a href="http://{{ education.link }}" target="_blank">
           {%- endif -%}
             {{ education.name }}
           {%- if education.link -%}
             </a>
-          {%- endif -%}
-          </h4>
-        <p><b>{{ education.qualification }}</b></p>
+          {%- endif -%}</p>
         <p>{{ education.dates }}</p>
       </div>
       <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
         {%- if education.quote -%}
           <p class="quote">{{ education.quote }}</p>
+	    {%- endif -%}
+		  
+        {%- if education.link -%}
+			<p>
+            <a href="http://{{ education.link }}" target="_blank">
+            {{ education.link_name | default: "Presentation Video "}}
+            </a>
+          </p>
         {%- endif -%}
         {{ education.description | strip | markdownify }}
       </div>
