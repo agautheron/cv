@@ -1,6 +1,6 @@
 # Project template
 - name: Laser Spectral Fluorescence IHM
-  link: https://gitlab.in2p3.fr/agautheron/laser-spectral-fluorescence
+  link: gitlab.in2p3.fr/agautheron/laser-spectral-fluorescence
   gitlab: agautheron/laser-spectral-fluorescence
   quote: >
   description: | # this will include new lines to allow paragraphs
