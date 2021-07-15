@@ -15,7 +15,13 @@
 		{%- endif -%}
 		{%- if project.gitlab -%}
           <a href="https://gitlab.in2p3.fr/{{ project.gitlab }}" target="_blank">
-            <i class="fa fa-gitlab" title="{{ project.name }} Gitlab link"></i>
+            <i class="fa fa-gitlab" title="{{ project.name }} Gitlab link"></i> 	
+			{%- if project.python -%}
+            <i class="fab fa-python" title="Python language"></i> 	
+			{%- endif -%}
+			{%- if project.matlab -%}
+			<img src="matlab.png" alt="MDN Logo" class="scale-down" width="32px"/>
+			{%- endif -%}
           </a>
 		{%- endif -%}
         </p>
