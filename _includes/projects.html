@@ -16,13 +16,13 @@
 		{%- if project.gitlab -%}
           <a href="https://gitlab.in2p3.fr/{{ project.gitlab }}" target="_blank">
             <i class="fa fa-gitlab" title="{{ project.name }} Gitlab link"></i> 	
+          </a>
 			{%- if project.python -%}
             <i class="fab fa-python" title="Python language"></i> 	
 			{%- endif -%}
 			{%- if project.matlab -%}
-			<img src="{{ site.projects_matlab_icon | relative_url }}" alt="Matlab" class="scale-down" width="32px"/>
+			<img src="url{{ site.projects_matlab_icon | relative_url }})" alt="Matlab" class="scale-down" width="32px"/>
 			{%- endif -%}
-          </a>
 		{%- endif -%}
         </p>
       </div>
