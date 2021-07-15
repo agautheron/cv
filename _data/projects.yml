@@ -4,6 +4,7 @@
   gitlab: agautheron/laser-spectral-fluorescence
   python: true
   matlab: false
+  c: true
 
   quote: >
   description: | # this will include new lines to allow paragraphs
@@ -12,7 +13,9 @@
 - name: Radiative Transfer Equation 1D Solver
   link: gitlab.in2p3.fr/agautheron/laser-spectral-fluorescence
   gitlab: agautheron/laser-spectral-fluorescence
+  python: false
   matlab: true
+  c: false
 
   quote: >
   description: | # this will include new lines to allow paragraphs
