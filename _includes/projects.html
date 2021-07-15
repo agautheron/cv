@@ -18,10 +18,20 @@
             <i class="fa fa-gitlab" title="{{ project.name }} Gitlab link"></i> 	
           </a>
 			{%- if project.python -%}
-            <i class="fab fa-python" title="Python language"></i> 	
+			<a href="#" style="pointer-events: none;cursor: default;text-decoration: none;color: black;" >
+				<!--<i class="fab fa-python" title="Python language"></i> 	-->
+				<img src="url{{ site.projects_python_icon | relative_url }})" alt=" Python " class="scale-down" width="32px"/>
+			</a>
 			{%- endif -%}
 			{%- if project.matlab -%}
-			<img src="url{{ site.projects_matlab_icon | relative_url }})" alt="Matlab" class="scale-down" width="32px"/>
+			<a href="#" style="pointer-events: none;cursor: default;text-decoration: none;color: black;" >
+			<img src="url{{ site.projects_matlab_icon | relative_url }})" alt=" Matlab " class="scale-down" width="32px"/>
+			</a>
+			{%- endif -%}
+			{%- if project.c -%}
+			<a href="#" style="pointer-events: none;cursor: default;text-decoration: none;color: black;" >
+			<img src="url{{ site.projects_c_icon | relative_url }})" alt=" C " class="scale-down" width="32px"/>
+			</a>
 			{%- endif -%}
 		{%- endif -%}
         </p>
