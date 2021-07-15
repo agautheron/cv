@@ -3,6 +3,7 @@
   link: gitlab.in2p3.fr/agautheron/laser-spectral-fluorescence
   gitlab: agautheron/laser-spectral-fluorescence
   python: true
+  matlab: false
 
   quote: >
   description: | # this will include new lines to allow paragraphs
