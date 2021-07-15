@@ -50,9 +50,15 @@ projects_c_icon : assets/c.png
 # More Section
 more_title: Publications #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+    function autoResize(iframe) {
+        $(iframe).height($(iframe).contents().find('html').height());
+    }
+    </script>
     <iframe src="https://haltools.archives-ouvertes.fr/Public/afficheRequetePubli.php?idHal=arthur-gautheron&CB_ref_biblio=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff&css=../css/VisuRubriqueEncadre.css"
-    scrolling="auto" frameborder="0" style="width: 100%;white-space: nowrap;position: relative;"
-    onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));'></iframe>
+    scrolling="auto" frameborder="0" style="width: 100%;white-space: nowrap;position: relative; height:100%"
+    onload="autoResize(this);"></iframe>
 # This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
 # Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
