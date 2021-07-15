@@ -11,8 +11,8 @@
     Software which interacts with an OceanInsight Spectrometer and an Arduino Board in order to control the acquisition process of Glioma Diffuse Fluorescence Spectroscopy
 
 - name: Radiative Transfer Equation 1D Solver
-  link: gitlab.in2p3.fr/agautheron/laser-spectral-fluorescence
-  gitlab: agautheron/laser-spectral-fluorescence
+  link: gitlab.in2p3.fr/agautheron/radiativetransferequation
+  gitlab: agautheron/radiativetransferequation
   python: false
   matlab: true
   c: false
